@@ -1,6 +1,9 @@
+from Bio.Seq import Seq
+
 import requests 
 import pandas as pd
 import numpy as np
+
 
 
 '''Para uma abordagem mais precisa para a identificação de domínios conservados, você pode usar a API do NCBI CDD:'''
@@ -62,7 +65,8 @@ class Data:
 
         saida: pd.DataFrame = pd.DataFrame(resultados)[['accession', 'classification', 'consensus_sequence']]
 
-        saida['classification'] = saida['classification'].apply(self.lista_binaria)
+        saida['classification']     = saida['classification'].apply(self.lista_binaria)
+        saida['consensus_sequence'] = saida['consensus_sequence'].apply(Seq)
 
         self.params["start"] += self.taxa_dowload
         
@@ -74,7 +78,9 @@ class Data:
 
         return np.array((1 if i in todas_hierarquias else 0 for i in classificacao_H))
     
-    def conserved_domain:
+    def conserved_domain(self, sequencia: Seq) -> int:
+
+        return 0
 
 
 def main() -> None:
