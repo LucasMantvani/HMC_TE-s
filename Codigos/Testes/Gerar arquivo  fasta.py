@@ -1,13 +1,12 @@
 import pandas as pd 
-
-sequences = {
-    "seq1": "CAGTGGTTCTCAAACTATGCTCCCACGGAACACTGGTGTTCCGCGAGCTGGACCGAGGTGTTCCGCCGCTAAAATCGAATAATGGCAGTCTTTTCCCAATTCGCAGAAAAAATTAAGTTAATGGATAGAATTTTCTCAATTTTAAGTTTTTCTCCCATAAATTTTTCTTAAACCTTTGGCGCCTGCTACCGCTTGTCTGCTAGCGAGCGCTAGCAGATGACAAAACGAATGAACAAGTAGCAAATGAATATTAACGGAAAAACTCGGAAACAGCCGATCATGCTTAGTTCGACAGCTTGTTTTTTTCATGGACACGTGTGCTCGTGGTTGTGATTTTATATTGCATACATATAATATAGTCATATTTTCTGCTAGTAAAATTGTTCCTAGTTCGTATGATGGAATTAAATATATCAGTATTTCATGGTGTTCCGCAAAGAGCACCATGACTTCCAGGTGCTCTGCCACCTGAACAAGTTTGAGAACCACTG"
-}
-
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio import SeqIO
 
 
-def file_fasta(sequencias: dict, file_path: str) -> None:
+def file_fasta(sequencias: pd.DataFrame, file_path: str) -> None:
 
+    sequencias = sequencias.set_index('accession').to_dict()['consensus_sequence']
 
     with open(file_path, "w") as fasta_file:
 
@@ -21,16 +20,36 @@ def file_fasta(sequencias: dict, file_path: str) -> None:
     return None
 
 
+def new_file_fasta(sequencias: pd.DataFrame, file_path: str) -> None:
+   
+    a = [SeqRecord(Seq(row.consensus_sequence), id=row.accession) for row in sequencias.itertuples(index=False)]
 
-df = pd.read_csv('/home/mantovani/Documents/trabalhos/Em_produção/IC/HMC_TE-s/Temp_Data/Dados_Genes/dado.csv')
+    SeqIO.write(a, file_path, "fasta")
 
-df = df[['accession', 'consensus_sequence']]
+    return None
 
-df        = df.iloc[range(0,99)]
-dict_list = df.set_index('accession').to_dict()['consensus_sequence']
 
-print(dict_list)
+def main() -> None:
 
-diretorio = "/home/mantovani/Documents/trabalhos/Em_produção/IC/HMC_TE-s/Temp_Data/Arquivos_Fasta/"
+    #disposições gerais
 
-file_fasta(dict_list, diretorio + "sequences.fasta")
+    diretorio = "/home/mantovani/Documents/trabalhos/Em_produção/IC/HMC_TE-s/Temp_Data/Arquivos_Fasta/"
+
+    #reduzindo o data_frame
+
+    df = pd.read_csv('/home/mantovani/Documents/trabalhos/Em_produção/IC/HMC_TE-s/Temp_Data/Dados_Genes/dado.csv')
+
+    df = df[['accession', 'consensus_sequence']]
+
+    df = df.iloc[range(0,99)]
+
+    
+    # file_fasta(df, diretorio + "sequences.fasta")
+    new_file_fasta(df, diretorio + "sequences1.fasta")
+
+    return None
+
+
+if __name__ == "__main__":
+
+    main()
