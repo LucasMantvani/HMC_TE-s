@@ -1,0 +1,334 @@
+{
+ "interproscan-version": "5.68-100.0",
+"results": [ {
+  "id" : 2,
+  "sequence" : "acagtatagcatagtggttaagagcacgggctctggagccagactgcctgggttcgaatcccggctctgccacttactagctgtgtgaccttgggcaagttacttaacctctctgtgcctcagtttcctcatctgtaaaatggggataataatagtacctacctcatagggttgttgtgaggattaaatgagttaatacatgtaaagcgcttagaacagtgcctggcacatagtaagcgctcaataaatgttagctattatt",
+  "md5" : "133abf08062990aa7c9efb700c3fdf03",
+  "crossReferences" : [ {
+    "name" : "DF000000001 <unknown description>",
+    "nucleotideSequence" : 2,
+    "id" : "DF000000001"
+  } ],
+  "openReadingFrames" : [ {
+    "id" : 13,
+    "start" : 2,
+    "end" : 85,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "QYSIVVKSTGSGARLPGFESRLCHLLAV",
+      "md5" : "bec728e38f5101e7914fa46f98504d83",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf2 source=DF000000001 coords=2..85 length=28 frame=2 desc=<unknown description>",
+        "id" : "orf2"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  }, {
+    "id" : 7,
+    "start" : 167,
+    "end" : 250,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "HLLSAYYVPGTVLSALHVLTHLILTTTL",
+      "md5" : "c0e880f41b50ee3c6eb233f72253bff2",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf6 source=DF000000001 coords=250..167 length=28 frame=4 desc=<unknown description>",
+        "id" : "orf6"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  }, {
+    "id" : 4,
+    "start" : 22,
+    "end" : 135,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "EHGLWSQTAWVRIPALPLTSCVTLGKLLNLSVPQFPHL",
+      "md5" : "49698610b88da337bf77262b391d72c7",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf3 source=DF000000001 coords=22..135 length=38 frame=1 desc=<unknown description>",
+        "id" : "orf3"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  }, {
+    "id" : 9,
+    "start" : 181,
+    "end" : 261,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "GLNELIHVKRLEQCLAHSKRSINVSYY",
+      "md5" : "0017ef82197e5366b63bab6c4d3a15a6",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf5 source=DF000000001 coords=181..261 length=27 frame=1 desc=<unknown description>",
+        "id" : "orf5"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  }, {
+    "id" : 16,
+    "start" : 103,
+    "end" : 183,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "SSQQPYEVGTIIIPILQMRKLRHREVK",
+      "md5" : "5bc13d86ff7c4a2974f44ad966ec795b",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf8 source=DF000000001 coords=183..103 length=27 frame=5 desc=<unknown description>",
+        "id" : "orf8"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  }, {
+    "id" : 6,
+    "start" : 1,
+    "end" : 99,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "LAQGHTASKWQSRDSNPGSLAPEPVLLTTMLYC",
+      "md5" : "afa245f982e409b93f9c8103a3d18257",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf11 source=DF000000001 coords=99..1 length=33 frame=5 desc=<unknown description>",
+        "id" : "orf11"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  }, {
+    "id" : 3,
+    "start" : 21,
+    "end" : 119,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "GTERLSNLPKVTQLVSGRAGIRTQAVWLQSPCS",
+      "md5" : "a7fc9acb895482e73398c1c0eb755f74",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf9 source=DF000000001 coords=119..21 length=33 frame=6 desc=<unknown description>",
+        "id" : "orf9"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  }, {
+    "id" : 1,
+    "start" : 162,
+    "end" : 254,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "LTFIERLLCARHCSKRFTCINSFNPHNNPMR",
+      "md5" : "a50fc3281d42937df9cbc423228f1e0d",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf7 source=DF000000001 coords=254..162 length=31 frame=6 desc=<unknown description>",
+        "id" : "orf7"
+      } ]
+    },
+    "nucleotideSequence" : 2
+  } ]
+},{
+  "id" : 1,
+  "sequence" : "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggcggatcacgaggtcaggagatcgagaccatcctggctaacacggtgaaaccccgtctctactaaaaatacaaaaaattagccgggcgtggtggcgggcgcctgtagtcccagctactcgggaggctgaggcaggagaatggcgtgaacccgggaggcggagcttgcagtgagccgagatcgcgccactgcactccagcctgggcgacagagcgagactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "md5" : "2dadd93d4062eac7a880fce05957bd6c",
+  "crossReferences" : [ {
+    "name" : "DF000000002 <unknown description>",
+    "nucleotideSequence" : 1,
+    "id" : "DF000000002"
+  } ],
+  "openReadingFrames" : [ {
+    "id" : 5,
+    "start" : 163,
+    "end" : 309,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "SQLLGRLRQENGVNPGGGACSEPRSRHCTPAWATERDSVSKKKKKKKKK",
+      "md5" : "2276da937e42263d89153e4d2a722f9c",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf16 source=DF000000002 coords=163..309 length=49 frame=1 desc=<unknown description>",
+        "id" : "orf16"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  }, {
+    "id" : 10,
+    "start" : 120,
+    "end" : 311,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "FFFFFFFFFFETESRSVAQAGVQWRDLGSLQAPPPGFTPFSCLSLPSSWDYRRPPPRPANFLYF",
+      "md5" : "fd64a87e2d67bce34c4c88000ab96861",
+      "matches" : [ {
+        "signature" : {
+          "accession" : "PTHR46254",
+          "name" : "PROTEIN GVQW1-RELATED",
+          "description" : null,
+          "signatureLibraryRelease" : {
+            "library" : "PANTHER",
+            "version" : "18.0"
+          },
+          "entry" : null
+        },
+        "locations" : [ {
+          "start" : 2,
+          "end" : 62,
+          "representative" : false,
+          "hmmStart" : 1,
+          "hmmEnd" : 61,
+          "hmmLength" : 0,
+          "hmmBounds" : "N_TERMINAL_COMPLETE",
+          "envelopeStart" : 2,
+          "envelopeEnd" : 64,
+          "location-fragments" : [ {
+            "start" : 2,
+            "end" : 62,
+            "dc-status" : "CONTINUOUS"
+          } ]
+        } ],
+        "accession" : "PTHR46254:SF7",
+        "name" : "SECRETED PROTEIN",
+        "evalue" : 4.3E-35,
+        "score" : 131.3,
+        "proteinClass" : null,
+        "graftPoint" : "PTN008467882",
+        "goXRefs" : [ ],
+        "model-ac" : "PTHR46254:SF7"
+      } ],
+      "xref" : [ {
+        "name" : "orf20 source=DF000000002 coords=311..120 length=64 frame=4 desc=<unknown description>",
+        "id" : "orf20"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  }, {
+    "id" : 2,
+    "start" : 172,
+    "end" : 279,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "DGVSLCRPGWSAVARSRLTASSASRVHAILLPQPPE",
+      "md5" : "884d621d500448b853ec64c308c20ec1",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf19 source=DF000000002 coords=279..172 length=36 frame=6 desc=<unknown description>",
+        "id" : "orf19"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  }, {
+    "id" : 8,
+    "start" : 1,
+    "end" : 117,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "GRARWLTPVIPALWEAEAGGSRGQEIETILANTVKPRLY",
+      "md5" : "068701f827040a72114015fedc56627c",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf14 source=DF000000002 coords=1..117 length=39 frame=1 desc=<unknown description>",
+        "id" : "orf14"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  }, {
+    "id" : 14,
+    "start" : 95,
+    "end" : 310,
+    "strand" : "ANTISENSE",
+    "protein" : {
+      "sequence" : "FFFFFFFFFLRRSLALSPRLECSGAISAHCKLRLPGSRHSPASASRVAGTTGARHHARLIFCIFSRDGVSPC",
+      "md5" : "2af7fce88a184d6d091d8ae35f891480",
+      "matches" : [ {
+        "signature" : {
+          "accession" : "PTHR12138",
+          "name" : "PRIMATE-EXPANDED PROTEIN FAMILY",
+          "description" : null,
+          "signatureLibraryRelease" : {
+            "library" : "PANTHER",
+            "version" : "18.0"
+          },
+          "entry" : null
+        },
+        "locations" : [ {
+          "start" : 19,
+          "end" : 63,
+          "representative" : false,
+          "hmmStart" : 1,
+          "hmmEnd" : 45,
+          "hmmLength" : 0,
+          "hmmBounds" : "N_TERMINAL_COMPLETE",
+          "envelopeStart" : 19,
+          "envelopeEnd" : 71,
+          "location-fragments" : [ {
+            "start" : 19,
+            "end" : 63,
+            "dc-status" : "CONTINUOUS"
+          } ]
+        } ],
+        "accession" : "PTHR12138:SF75",
+        "name" : "SECRETED PROTEIN",
+        "evalue" : 5.4E-21,
+        "score" : 86.5,
+        "proteinClass" : null,
+        "graftPoint" : "PTN000748803",
+        "goXRefs" : [ ],
+        "model-ac" : "PTHR12138:SF75"
+      } ],
+      "xref" : [ {
+        "name" : "orf21 source=DF000000002 coords=310..95 length=72 frame=5 desc=<unknown description>",
+        "id" : "orf21"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  }, {
+    "id" : 15,
+    "start" : 96,
+    "end" : 224,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "HGETPSLLKIQKISRAWWRAPVVPATREAEAGEWREPGRRSLQ",
+      "md5" : "9da3e9eca470581148d384755e6a76e7",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf15 source=DF000000002 coords=96..224 length=43 frame=3 desc=<unknown description>",
+        "id" : "orf15"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  }, {
+    "id" : 11,
+    "start" : 3,
+    "end" : 92,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "PGAVAHACNPSTLGGRGGRITRSGDRDHPG",
+      "md5" : "47efd2c848754f97e8861ad03bceaa5b",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf12 source=DF000000002 coords=3..92 length=30 frame=3 desc=<unknown description>",
+        "id" : "orf12"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  }, {
+    "id" : 12,
+    "start" : 203,
+    "end" : 310,
+    "strand" : "SENSE",
+    "protein" : {
+      "sequence" : "TREAELAVSRDRATALQPGRQSETPSQKKKKKKKKK",
+      "md5" : "d5dd6468b3dc6cccd17447467dd798e3",
+      "matches" : [ ],
+      "xref" : [ {
+        "name" : "orf17 source=DF000000002 coords=203..310 length=36 frame=2 desc=<unknown description>",
+        "id" : "orf17"
+      } ]
+    },
+    "nucleotideSequence" : 1
+  } ]
+} ]
+}

@@ -1,15 +1,20 @@
-from Bio.Seq import Seq
-
 import requests 
+import subprocess
+
+
+from Bio.Seq       import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio           import SeqIO
+
 import pandas as pd
-import numpy as np
+import numpy  as np
 
 
+#LEMBRE-SE DE ORDENAR A LISTA DE FORMA QIUE A CLASSIFICAÇÃO CORRETA SEJA VIAVEL DESSE JEITO, VAI FUNCIONAR PARA TESTES MAS NA 
+#HORA DE TREINAR O MODELO, ELE SIMPLESMENTE NÃO FUNCIONARÁ!
 
-'''Para uma abordagem mais precisa para a identificação de domínios conservados, você pode usar a API do NCBI CDD:'''
 
-
-todas_hierarquias = {'Transib', 'Mariner', 'Zator', 'L1', 'RTE-X', '5S-RNA_Promoter', 'Group-I', 'Hero', 'scRNA', 'Poseidon', 
+todas_hierarquias:tuple = ('Transib', 'Mariner', 'Zator', 'L1', 'RTE-X', '5S-RNA_Promoter', 'Group-I', 'Hero', 'scRNA', 'Poseidon', 
     'MuDR', 'Mutator-like', 'ISL2EU', 'Tad1_End', 'PiggyBac-X', 'DNA_Polymerase', 'Hydra-specific_Branch', 
     'Academ-2', 'Pararetroviridae', 'CR1-end', 'Odin', 'P_Element', 'tRNA_and_7SL_RNA', 'Stowaway', 'L1-group', 
     'Fot1', 'Restless', 'Retrotransposon', 'Casposon', 'CRE-1', 'Crypton-I', 'Orthoretrovirinae', 'Tc4', 
@@ -36,11 +41,26 @@ todas_hierarquias = {'Transib', 'Mariner', 'Zator', 'L1', 'RTE-X', '5S-RNA_Promo
     'snoRNA', 'Chapaev-3', 'L1-like', 'Helitron-2', 'Ginger-1', 'Kolobok-E', 'hAT19', 'B2', 'rRNA', 
     'U-RNA_Promoter', 'Dualen', 'Maverick-Mavirus', 'Crypton-X', 'NeSL', 'Ngaro', 'Sagan', 'MIR-core', 
     'Sola-2', 'Retroviridae', 'Naiad', 'hAT', 'PiggyBac-A', 'LINE-dependent_Retroposon', 'Pogo', 'hAT6', 
-    'tRNA_Promoter', 'R1-like', 'Viper', 'Group-1', 'Spumaretrovirinae', 'Deu-core'}
+    'tRNA_Promoter', 'R1-like', 'Viper', 'Group-1', 'Spumaretrovirinae', 'Deu-core')
+
+
+def lista_binaria(classificacao_H: str) -> tuple:
+    
+    classificacao_H = classificacao_H.split(';')
+
+    return (1 if i in classificacao_H else 0 for i in todas_hierarquias)
+
+def reverso_lista_binaria(lista_binaria: tuple) -> list:
+
+    classificacao:list = [j for i, j in zip(lista_binaria, todas_hierarquias) if i]
+
+    return classificacao
 
 class Data:
 
-    def __init__(self, taxa_dowload: int = 1000) -> None:
+    def __init__(self, relative_path:str, taxa_dowload: int = 1000) -> None: #colocar um pedaço de código para calcular o caminho relativo sozinho
+
+        self.relative_path = relative_path
 
         self.url:          str  = 'https://dfam.org/api/families'
         self.taxa_dowload: int  = taxa_dowload
@@ -50,7 +70,7 @@ class Data:
 
         return None
     
-    def get_data(self) -> pd.DataFrame:
+    def __consulta_Dfan(self) -> pd.DataFrame:
 
         resposta: requests = requests.get(self.url, self.params)
 
@@ -65,29 +85,54 @@ class Data:
 
         saida: pd.DataFrame = pd.DataFrame(resultados)[['accession', 'classification', 'consensus_sequence']]
 
-        saida['classification']     = saida['classification'].apply(self.lista_binaria)
+        saida['classification']     = saida['classification'].apply(lista_binaria)
         saida['consensus_sequence'] = saida['consensus_sequence'].apply(Seq)
 
         self.params["start"] += self.taxa_dowload
         
         return saida
     
-    def lista_binaria(self, classificacao_H: str) -> np.ndarray:
+    def __fasta_file(self, data_frame: pd.DataFrame) -> None:
+
+        file_path = self.relative_path + 'Temp_Data/Arquivos_Fasta/sequences'
         
-        classificacao_H = classificacao_H.split(';')
+        a = [SeqRecord(row.consensus_sequence, id=row.accession) for row in data_frame.itertuples(index=False)]
 
-        return np.array((1 if i in todas_hierarquias else 0 for i in classificacao_H))
+        SeqIO.write(a, file_path, "fasta")
+
+        return None
     
-    def conserved_domain(self, sequencia: Seq) -> int:
+    def __conserved_domain(self) -> None:
 
-        return 0
+        comando_0 = './interproscan.sh ' + ' -appl PRINTS, PANTHER, Pfam ' +' -t n ' + ' -vtsv '
+        comando_1 = ' -i ' + self.relative_path + 'Temp_Data/Arquivos_Fasta/sequences' + ' -b ' + self.relative_path + 'Temp_Data/Dados_Dominos_Consevados/'
+
+        comando_f = comando_0 + comando_1
+
+        subprocess.run(comando_f, cwd='/home/mantovani/interproscan-5.68-100.0', shell=True)
+
+        return None
+    
+    def get_data(self) -> None:
+
+        def __uma_iteracao() -> None:
+
+            dados = self.__consulta_Dfan()
+            self.__fasta_file(dados)
+            self.__conserved_domain()
+
+            return None
+        
+        __uma_iteracao()
+
+        return None
 
 
 def main() -> None:
 
-    data = Data(5)
+    data = Data('/home/mantovani/Documents/trabalhos/Em_produção/IC/HMC_TE-s/', 2)
 
-    print(data.get_data().head())
+    a = data.get_data()
 
     return None
 

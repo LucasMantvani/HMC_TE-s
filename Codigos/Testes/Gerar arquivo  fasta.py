@@ -41,11 +41,11 @@ def main() -> None:
 
     df = df[['accession', 'consensus_sequence']]
 
-    df = df.iloc[range(0,99)]
+    df = df.iloc[range(0,1)]
 
     
     # file_fasta(df, diretorio + "sequences.fasta")
-    new_file_fasta(df, diretorio + "sequences1.fasta")
+    new_file_fasta(df, diretorio + "sequences2.fasta")
 
     return None
 
