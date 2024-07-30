@@ -104,7 +104,7 @@ class Data:
     
     def __conserved_domain(self) -> None:
 
-        comando_0 = './interproscan.sh ' + ' -appl PRINTS, PANTHER, Pfam ' +' -t n ' + ' -vtsv '
+        comando_0 = './interproscan.sh ' + ' -appl PRINTS, Pfam, CDD, ProSitePatterns ' +' -t n ' + ' -vtsv '
         comando_1 = ' -i ' + self.relative_path + 'Temp_Data/Arquivos_Fasta/sequences' + ' -b ' + self.relative_path + 'Temp_Data/Dados_Dominos_Consevados/'
 
         comando_f = comando_0 + comando_1
@@ -135,7 +135,7 @@ def main() -> None:
     a = data.get_data()
 
     return None
-
+ 
 if __name__ == '__main__':
 
     main()
