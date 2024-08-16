@@ -1,3 +1,0 @@
-cd /home/mantovani/interproscan-5.68-100.0
-
-./interproscan.sh -appl PRINTS -i /home/mantovani/Documents/trabalhos/Em produção/IC/HMC_TE-s/sequences.fastas -b /home/mantovani/Documents/trabalhos/Em_produção/IC/HMC_TE-s/Temp_Data/Dados_Dominos_Consevados/
