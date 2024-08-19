@@ -121,7 +121,8 @@ class Data:
     
 def main() -> None:
 
-    data = Data('/home/mantovani/Documents/IC/HMC_TE-s/', 2)
+    data = Data('/home/mantovani/Documents/IC/HMC_TE-s/', 10)
+    
     
     a = data.get_data()
 

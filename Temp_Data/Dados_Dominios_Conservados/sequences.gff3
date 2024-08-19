@@ -1,0 +1,33 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.69-101.0
+##sequence-region DF000000003 1 309
+DF000000003	provided_by_user	nucleic_acid	1	309	.	+	.	ID=DF000000003;Name=DF000000003;md5=19b3abc2731388f72a53fb0d2fe18487
+DF000000003_orf34	getorf	ORF	64	309	.	-	.	Target=pep_DF000000003_64_309_r 1 82;ID=orf_DF000000003_64_309_r;Name=DF000000003_orf34;md5=19b3abc2731388f72a53fb0d2fe18487
+DF000000003_orf34	getorf	polypeptide	1	82	.	+	.	ID=pep_DF000000003_64_309_r;md5=5fddbdcc3acdf6fcab56da206e10bb6b
+DF000000003_orf34	PRINTS	protein_match	76	82	1.5E-9	+	.	date=19-08-2024;Target=null 76 82;ID=match$1_76_82;signature_desc=FAM138 N-terminal domain signature;Name=PR02045;status=T
+DF000000003_orf34	PRINTS	protein_match	61	76	1.5E-9	+	.	date=19-08-2024;Target=null 61 76;ID=match$1_61_76;signature_desc=FAM138 N-terminal domain signature;Name=PR02045;status=T
+##sequence-region DF000000007 1 312
+DF000000007	provided_by_user	nucleic_acid	1	312	.	+	.	ID=DF000000007;Name=DF000000007;md5=416393e2f40b0c7173bb49202a5b3bd2
+DF000000007_orf107	getorf	ORF	3	311	.	-	.	Target=pep_DF000000007_3_311_r 1 103;ID=orf_DF000000007_3_311_r;Name=DF000000007_orf107;md5=416393e2f40b0c7173bb49202a5b3bd2
+DF000000007_orf107	getorf	polypeptide	1	103	.	+	.	ID=pep_DF000000007_3_311_r;md5=7fb23d7dcb373a0ce5f28a90605c9d60
+DF000000007_orf107	PRINTS	protein_match	76	89	3.8E-25	+	.	date=19-08-2024;Target=null 76 89;ID=match$2_76_89;signature_desc=FAM138 N-terminal domain signature;Name=PR02045;status=T
+DF000000007_orf107	PRINTS	protein_match	61	76	3.8E-25	+	.	date=19-08-2024;Target=null 61 76;ID=match$2_61_76;signature_desc=FAM138 N-terminal domain signature;Name=PR02045;status=T
+DF000000007_orf107	PRINTS	protein_match	89	103	3.8E-25	+	.	date=19-08-2024;Target=null 89 103;ID=match$2_89_103;signature_desc=FAM138 N-terminal domain signature;Name=PR02045;status=T
+##FASTA
+>pep_DF000000003_64_309_r
+FFFFFFFFFFETESRSVARLECSGAISAHCNLRLPGSSDSPASASRVAGTTGARHHAQLI
+FVFLVETGFHHVGQDGLDLLTS
+>pep_DF000000007_3_311_r
+FFFFFFFFFLRQGLALSPRLECSGAITAHCSLDLPGSSDPPASASRVAGTTGARHHARLI
+FVFFVETGFRHVAQAGLELLGSSDPPASASQSAGITGVSHRAR
+>match$1_61_76
+FVFLVETGFHHVGQDG
+>match$1_76_82
+GLDLLTS
+>match$2_61_76
+FVFFVETGFRHVAQAG
+>match$2_76_89
+GLELLGSSDPPASA
+>match$2_89_103
+ASQSAGITGVSHRAR

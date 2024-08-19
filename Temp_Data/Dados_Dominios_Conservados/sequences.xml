@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?><nucleotide-sequence-matches xmlns="https://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/schemas" interproscan-version="5.69-101.0">
+  <nucleotide-sequence>
+    <sequence md5="133abf08062990aa7c9efb700c3fdf03">acagtatagcatagtggttaagagcacgggctctggagccagactgcctgggttcgaatcccggctctgccacttactagctgtgtgaccttgggcaagttacttaacctctctgtgcctcagtttcctcatctgtaaaatggggataataatagtacctacctcatagggttgttgtgaggattaaatgagttaatacatgtaaagcgcttagaacagtgcctggcacatagtaagcgctcaataaatgttagctattatt</sequence>
+    <xref id="DF000000001" name="DF000000001 &lt;unknown description&gt;"/>
+    <orf end="119" start="21" strand="ANTISENSE">
+      <protein>
+        <sequence md5="a7fc9acb895482e73398c1c0eb755f74">GTERLSNLPKVTQLVSGRAGIRTQAVWLQSPCS</sequence>
+        <xref id="orf9" name="orf9 source=DF000000001 coords=119..21 length=33 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="135" start="22" strand="SENSE">
+      <protein>
+        <sequence md5="49698610b88da337bf77262b391d72c7">EHGLWSQTAWVRIPALPLTSCVTLGKLLNLSVPQFPHL</sequence>
+        <xref id="orf3" name="orf3 source=DF000000001 coords=22..135 length=38 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="183" start="103" strand="ANTISENSE">
+      <protein>
+        <sequence md5="5bc13d86ff7c4a2974f44ad966ec795b">SSQQPYEVGTIIIPILQMRKLRHREVK</sequence>
+        <xref id="orf8" name="orf8 source=DF000000001 coords=183..103 length=27 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="99" start="1" strand="ANTISENSE">
+      <protein>
+        <sequence md5="afa245f982e409b93f9c8103a3d18257">LAQGHTASKWQSRDSNPGSLAPEPVLLTTMLYC</sequence>
+        <xref id="orf11" name="orf11 source=DF000000001 coords=99..1 length=33 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="254" start="162" strand="ANTISENSE">
+      <protein>
+        <sequence md5="a50fc3281d42937df9cbc423228f1e0d">LTFIERLLCARHCSKRFTCINSFNPHNNPMR</sequence>
+        <xref id="orf7" name="orf7 source=DF000000001 coords=254..162 length=31 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="85" start="2" strand="SENSE">
+      <protein>
+        <sequence md5="bec728e38f5101e7914fa46f98504d83">QYSIVVKSTGSGARLPGFESRLCHLLAV</sequence>
+        <xref id="orf2" name="orf2 source=DF000000001 coords=2..85 length=28 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="250" start="167" strand="ANTISENSE">
+      <protein>
+        <sequence md5="c0e880f41b50ee3c6eb233f72253bff2">HLLSAYYVPGTVLSALHVLTHLILTTTL</sequence>
+        <xref id="orf6" name="orf6 source=DF000000001 coords=250..167 length=28 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="261" start="181" strand="SENSE">
+      <protein>
+        <sequence md5="0017ef82197e5366b63bab6c4d3a15a6">GLNELIHVKRLEQCLAHSKRSINVSYY</sequence>
+        <xref id="orf5" name="orf5 source=DF000000001 coords=181..261 length=27 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="baac1368244bbd7d30f4d5d69353b75a">tctatctatataaaatgcttaggtatgtttccccaaggttcagctgggcgtggttttcacgtgatcactccagccaatgaacgcgcaagcatccagtgatcacgtgaaaaccacgcctgttaatttataaatgttgacactgacaggtgacaggtaggtagtgactgtttataagaattgtatgcgtttctgagcatttatttacttaatctttttgaaattaancttagaatttctacaacgtgtaacgttaaacacgtgtcacctattttgaacttaatacagtgcataaaagtgtttataagaattgtatgcgtttctgagcgtttatttacttaatcaaaaattttatgcgttttgagcatttatttacttaatcaaaggtttaaaagttttaagaagtgtaaaaatggctgaaccgtgtgtaagaactctgagaaaccgtagaagaaatgctaatgaaacattagaggagagatcaaatagactacgagaccgaaatgaaactctacgacgacgaagacggacagagaacattgaagaaagagaagaacgattggaaatgagaagaaaaagagcgaaacgcctaggactaatcaaatagaagtaccggatgcgaataatcaacaagctgtaatcaactgtggaagagcataacataggaaatatgtgttacaactgtgagcactgcaatgaacttggatactgttctcataccgcgcatacctctcattccatctgatacaaatatgcctttcatattcaaaagaagacagtttcctatacgtttagccttttcaatgaccatcaacaagtcacagggacagacttttgacagaatctgcttataccttccgaaacctgtatttagtcacggacaactatatgttgctctctcaagagttcgatcattggactcattaagtgttgtatctgagaagaacgagattgttaattgtgtttacaatgaaatatatgaataaataaataaaatgcgttaatattttattaataactattaagatctgctagaacggcgtatgttacgccgggtacagctag</sequence>
+    <xref id="DF000000006" name="DF000000006 &lt;unknown description&gt;"/>
+    <orf end="788" start="627" strand="ANTISENSE">
+      <protein>
+        <sequence md5="5598fcfb73726ea84de48bd262990fd3">TYRKLSSFEYERHICIRWNERYARYENSIQVHCSAHSCNTYFLCYALPQLITAC</sequence>
+        <xref id="orf85" name="orf85 source=DF000000006 coords=788..627 length=54 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="672" start="373" strand="ANTISENSE">
+      <protein>
+        <sequence md5="48553deaa77b8435849733183bf03595">HIFPMLCSSTVDYSLLIIRIRYFYLISPRRFALFLLISNRSSLSSMFSVRLRRRRVSFRSRSLFDLSSNVSLAFLLRFLRVLTHGSAIFTLLKTFKPLIK</sequence>
+        <xref id="orf90" name="orf90 source=DF000000006 coords=672..373 length=100 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="980" start="663" strand="SENSE">
+      <protein>
+        <sequence md5="6cb7c1e76f014aa6bd8ecfcf36de3349">EICVTTVSTAMNLDTVLIPRIPLIPSDTNMPFIFKRRQFPIRLAFSMTINKSQGQTFDRICLYLPKPVFSHGQLYVALSRVRSLDSLSVVSEKNEIVNCVYNEIYE</sequence>
+        <xref id="orf79" name="orf79 source=DF000000006 coords=663..980 length=106 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="596" start="459" strand="ANTISENSE">
+      <protein>
+        <sequence md5="3f7d6fcb6c2b8bfa80328c703736ecf8">LVLGVSLFFFSFPIVLLFLQCSLSVFVVVEFHFGLVVYLISPLMFH</sequence>
+        <xref id="orf87" name="orf87 source=DF000000006 coords=596..459 length=46 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="335" start="201" strand="ANTISENSE">
+      <protein>
+        <sequence md5="a97e44745b2f01ca4cb93c2c7ea4afc4">VNKRSETHTILINTFMHCIKFKIGDTCLTLHVVEILXLISKRLSK</sequence>
+        <xref id="orf91" name="orf91 source=DF000000006 coords=335..201 length=45 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="601" start="362" strand="SENSE">
+      <protein>
+        <sequence md5="945fe9077a0898a4b5cd7f2861363315">AFIYLIKGLKVLRSVKMAEPCVRTLRNRRRNANETLEERSNRLRDRNETLRRRRRTENIEEREERLEMRRKRAKRLGLIK</sequence>
+        <xref id="orf72" name="orf72 source=DF000000006 coords=362..601 length=80 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="336" start="175" strand="SENSE">
+      <protein>
+        <sequence md5="ea405dcca64dc90c4053305aac56a9bc">ELYAFLSIYLLNLFEIXLRISTTCNVKHVSPILNLIQCIKVFIRIVCVSERLFT</sequence>
+        <xref id="orf69" name="orf69 source=DF000000006 coords=175..336 length=54 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="871" start="641" strand="ANTISENSE">
+      <protein>
+        <sequence md5="35380b24a276b48734b1f484e777a84b">LNTGFGRYKQILSKVCPCDLLMVIEKAKRIGNCLLLNMKGIFVSDGMRGMRGMRTVSKFIAVLTVVTHISYVMLFHS</sequence>
+        <xref id="orf84" name="orf84 source=DF000000006 coords=871..641 length=77 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="dfd7f64ee0472d20cd37c14c9884d4f0">cagtcatgcgccgcataacgacgtttcggtcaacgacggaccgcatatacgacggtggtcccataagattataataccgtatttttactgtaccttttctatgtttagatatgtttagatacacaaatacttaccattgtgttacaattgcctacagtattcagtacagtaacatgctgtacaggtttgtagcctaggagcaataggctataccatatagcctaggtgtgtagtaggctataccatctaggtttgtgtaagtacactctatgatgttcgcacaacgacgaaatcgcctaacgacgcatttctcagaacgtatccccgtcgttaagcgacgcatgactg</sequence>
+    <xref id="DF000000004" name="DF000000004 &lt;unknown description&gt;"/>
+    <orf end="331" start="251" strand="SENSE">
+      <protein>
+        <sequence md5="05f1db91dbcbf6fc0285e8e76e98509e">VCVSTLYDVRTTTKSPNDAFLRTYPRR</sequence>
+        <xref id="orf42" name="orf42 source=DF000000004 coords=251..331 length=27 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="221" start="108" strand="ANTISENSE">
+      <protein>
+        <sequence md5="5d5c85190c0a74b5a84740ff4b2f1677">AIWYSLLLLGYKPVQHVTVLNTVGNCNTMVSICVSKHI</sequence>
+        <xref id="orf48" name="orf48 source=DF000000004 coords=221..108 length=38 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="347" start="261" strand="SENSE">
+      <protein>
+        <sequence md5="88482a102f4ea7186a67c39df75874dc">VHSMMFAQRRNRLTTHFSERIPVVKRRMT</sequence>
+        <xref id="orf43" name="orf43 source=DF000000004 coords=261..347 length=29 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="130" start="2" strand="ANTISENSE">
+      <protein>
+        <sequence md5="ab517a2eeca9050fcd52aa80b864ec87">VFVYLNISKHRKGTVKIRYYNLMGPPSYMRSVVDRNVVMRRMT</sequence>
+        <xref id="orf50" name="orf50 source=DF000000004 coords=130..2 length=43 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="189" start="109" strand="SENSE">
+      <protein>
+        <sequence md5="d29b33e6bb302f41b4393975a4b7fb3f">ICLDTQILTIVLQLPTVFSTVTCCTGL</sequence>
+        <xref id="orf40" name="orf40 source=DF000000004 coords=109..189 length=27 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="346" start="197" strand="ANTISENSE">
+      <protein>
+        <sequence md5="f1903ecbb410a0df3a11e4bce4a44bb2">VMRRLTTGIRSEKCVVRRFRRCANIIECTYTNLDGIAYYTPRLYGIAYCS</sequence>
+        <xref id="orf46" name="orf46 source=DF000000004 coords=346..197 length=50 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="115" start="2" strand="SENSE">
+      <protein>
+        <sequence md5="43a8ee03837232ae50a023d3fb12bc30">SHAPHNDVSVNDGPHIRRWSHKIIIPYFYCTFSMFRYV</sequence>
+        <xref id="orf39" name="orf39 source=DF000000004 coords=2..115 length=38 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="194" start="75" strand="SENSE">
+      <protein>
+        <sequence md5="9c40fb51dec1be3a77c85d6a789d3baf">YRIFTVPFLCLDMFRYTNTYHCVTIAYSIQYSNMLYRFVA</sequence>
+        <xref id="orf41" name="orf41 source=DF000000004 coords=75..194 length=40 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="416393e2f40b0c7173bb49202a5b3bd2">ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggnggatcgcttgagcccaggagttcgagaccagcctgggcaacatggcgaaaccccgtctctacaaaaaatacaaaaattagccgggcgtggtggcgcgcgcctgtagtcccagctactcgggaggctgaggcgggaggatcgcttgagcccgggaggtcgaggctgcagtgagccgtgatcgcgccactgcactccagcctgggcgacagagcgagaccctgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</sequence>
+    <xref id="DF000000007" name="DF000000007 &lt;unknown description&gt;"/>
+    <orf end="312" start="229" strand="SENSE">
+      <protein>
+        <sequence md5="690d89dd14f92a742bc3a1140a43ac4d">AVIAPLHSSLGDRARPCLKKKKKKKKKK</sequence>
+        <xref id="orf104" name="orf104 source=DF000000007 coords=229..312 length=28 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="311" start="3" strand="ANTISENSE">
+      <protein>
+        <sequence md5="7fb23d7dcb373a0ce5f28a90605c9d60">FFFFFFFFFLRQGLALSPRLECSGAITAHCSLDLPGSSDPPASASRVAGTTGARHHARLIFVFFVETGFRHVAQAGLELLGSSDPPASASQSAGITGVSHRAR</sequence>
+        <xref id="orf107" name="orf107 source=DF000000007 coords=311..3 length=103 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches>
+          <fingerprints-match evalue="3.8E-25" graphscan="III">
+            <signature ac="PR02045" desc="FAM138 N-terminal domain signature" name="F138DOMAIN">
+              <signature-library-release library="PRINTS" version="42.0"/>
+            </signature>
+            <model-ac>PR02045</model-ac>
+            <locations>
+              <fingerprints-location motifNumber="2" pvalue="2.53E-10" score="72.22" start="76" end="89" representative="false">
+                <location-fragments>
+                  <fingerprints-location-fragment start="76" end="89" dc-status="CONTINUOUS"/>
+                </location-fragments>
+              </fingerprints-location>
+              <fingerprints-location motifNumber="1" pvalue="3.24E-11" score="60.79" start="61" end="76" representative="false">
+                <location-fragments>
+                  <fingerprints-location-fragment start="61" end="76" dc-status="CONTINUOUS"/>
+                </location-fragments>
+              </fingerprints-location>
+              <fingerprints-location motifNumber="3" pvalue="2.54E-11" score="66.08" start="89" end="103" representative="false">
+                <location-fragments>
+                  <fingerprints-location-fragment start="89" end="103" dc-status="CONTINUOUS"/>
+                </location-fragments>
+              </fingerprints-location>
+            </locations>
+          </fingerprints-match>
+        </matches>
+      </protein>
+    </orf>
+    <orf end="280" start="173" strand="ANTISENSE">
+      <protein>
+        <sequence md5="d6f04a1b1767ebbd8582c1bbb9aeedff">DRVSLCRPGWSAVARSRLTAASTSRAQAILPPQPPE</sequence>
+        <xref id="orf105" name="orf105 source=DF000000007 coords=280..173 length=36 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="115" start="20" strand="ANTISENSE">
+      <protein>
+        <sequence md5="c331ce3320d17c9de782a700d4f6e7dd">RRGFAMLPRLVSNSWAQAIXPPRPPKVLGLQA</sequence>
+        <xref id="orf106" name="orf106 source=DF000000007 coords=115..20 length=32 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="160" start="29" strand="SENSE">
+      <protein>
+        <sequence md5="d310b32c95525e0560fea51c4969211f">SQHFGRPRRXDRLSPGVRDQPGQHGETPSLQKIQKLAGRGGARL</sequence>
+        <xref id="orf99" name="orf99 source=DF000000007 coords=29..160 length=44 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="312" start="1" strand="ANTISENSE">
+      <protein>
+        <sequence md5="02b432190330940f239174d2950883bd">FFFFFFFFFFETGSRSVAQAGVQWRDHGSLQPRPPGLKRSSRLSLPSSWDYRRAPPRPANFCIFCRDGVSPCCPGWSRTPGLKRSXRLGLPKCWDYRREPPRPA</sequence>
+        <xref id="orf108" name="orf108 source=DF000000007 coords=312..1 length=104 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="311" start="204" strand="SENSE">
+      <protein>
+        <sequence md5="75d308b3bb7f928b480a0576f748f227">AREVEAAVSRDRATALQPGRQSETLSQKKKKKKKKK</sequence>
+        <xref id="orf103" name="orf103 source=DF000000007 coords=204..311 length=36 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="225" start="1" strand="SENSE">
+      <protein>
+        <sequence md5="d79105e438b0ffd9a39e0c466e47b3f6">GRARWLTPVIPALWEAEAGGSLEPRSSRPAWATWRNPVSTKNTKISRAWWRAPVVPATREAEAGGSLEPGRSRLQ</sequence>
+        <xref id="orf100" name="orf100 source=DF000000007 coords=1..225 length=75 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="24a02fd1b4286bdf151111d4c87f14a5">atggtagatttaaacccaancatatcaataattacattaaatgtaaatggnctaaacactccaattaaaaggcagagattgtcagactggataaaaaaacaagacccaactatatgctgtctacaagagacgcactttaaatataaagacacaganaggttgaaagtaaaaggatggaaaaagatataccatgcaaacactaancaaaagaaagctggngtggctatattaatatcagacaaagtagacttcaaggcaagaaatattaccagagataaagagggacatttcataatgataaaagggtcaattcatcaagaagacataacaatcctaaatgtgtatgcacctaataacagagcttcaaaatacatgaagcaaaaactgacagaactaaaaggagaaatagacaaatccacaattatagtnggagattttaacacncctctctcagtaattgatagaacaagtagacaaaaaatcagtaaggatatagaagatttgaacaacactatcaaccaacttgacctaattgacatttatagaacactncacccaacaacngcagaatacacattcttttcaagtgcacatggaacatttaccaagatagaccatatnctgggccataaaacaagtctcaataaatttnaaaggattgaaatcatacagagtatgttctctgaccacaatggaattaaattagaaatcaataacaaaaagatanctagaaaatccccaaatatttggaaattaaacaacacacttctaaataacccatgggtcaaagaagaaatcacaanggaaattagaaaatattttgaactgaatganaatgaaaatacaacatatcaaaatttgtgggatgcagctaaagcagtgcttagagggaaatttatagcnttaaatgcntatattagaaaagaagaaaggcttaaaatcaatgatctaagcttccaccttaagaagctagaaaaagaagagcaaattaaacccaaagnaagtagaaggaaggaaataataaagataagagcagaaatcaatgaaatagaaaacaaananacaatagagaaaatcaacgaagccaaaagctggttctttgaaaagatcaataaaattgataaacctctagcnagactgatcaagaaaaaaagagagaagacacaaattaccaatatcaggaatgaaaaaggagacatcactacagatcctacagacattaaaaggataataagagaatattatgaacaactttatgccaataaatttganaacttagatgaaatggacaaattccttgaaaaacacaanttaccaaaactgacncaagaagaaatagaaaatctgaatagccctatatctattaaagaaattgaatttgtaattaaaaaccttcccacaaagaaaactccaggcccagatggcttcactggtgaattctaccaaacatttaaggaagaaataataccaatcttacacaaactcttccagaaaatagaaaaagagggaacacttcccaactcattttatgaggccagcatnaccctgataccaaaaccngacaaagacattacaagaaaagaaaattacagaccaatatccctcatgaacatagatgcaaaaatcctnaacaaaatattagcaaatcgaatccagcaatatataaaaaggataatacatcatgaccaagtggggtttatcccaggaatgcaaggttggtttaacattcgaaaatcaatcaatgtaattcaccatattaacagaataaaggagaaaaatcatatgatcatctcaatagatgcagaaaaagcatttgacaaaattcaacacccattcatgataaaaactctcagcaaactaggaatagaagggaacttcctcaacctgataaagggcatctacgaaaaacctacagcnaacatcatacttaatggtgaaanactgaangctttccccctaagatcgggaacaagacaaggatgtccgctntcaccacttctattcaacattgtactggaggtcctagccagtgcaataaggcaagaaaaagaaataaaaggcataaagattggaaaggaagaaataaaactgtcnttattcgcagatgacatgattgtntacgtagaaaatccnaaagaatctacaaanaaactactagaactaataagtgaatttagcaaggtcgcnggatacaaggtcaatatacaaaaatcaattgtatttctatatactagcaacaaacaattggaaaatgaaatttnaaaaacaataccatttacaatagcatcaaaaaacatnaaatacttaggaataaatctaacaaaanatgtgcaagacctntacactgaaaactacaaaacattgctgagagaaattaaagaagacctaaataaatggagagatataccatgttcatggattggaagactcaatattgtnaagatgtcaattctccccaaattgatctatagattcaatgcaatcccaatcaaaatcccagcaggtttttttgtagaaattgacaagctgattctaaaatttatatggaaatgcaaaggaccnagaatagccaaaacaatcttgaaaaagaagaacaaagttggaggacttacactaccngatntcaagacttattataaagctacagtaatcaagacagtgtggtattggcgtaaggatagacaaatagatcaatggaacagaatagagagtccagaaatagacccacacatatatggncanttgatttttgacaaaggtgccaangcaattcagtggggaaaggatagtcttttcaacaaatggtgctggaacaattggatatccatatggaaaaaaatgaanctcgacccctacctcacaccatacacaaaaattaattcnagatggatcatagacctaaatgtaaaagntaaaactataaaacttctagaagaaaacataggagaatatcttcgtgaccttgggntaggcaaagatttcttaaacaggacacaaaaagcacnaaccataaaagaaaaaattgataaattggactncatcaaaattaaaaacttctgctcntcaaaagacaccgttaagaaaatgaaaaggcaagccacagantgggagaaaatatttgcaanacatatatctgacaaaggactcgtatccagaatatataaagaactcctacaantcaataanaaaaagacaaacaacccaatanaaaaatgggcaaaagacttgaacagacacttcacaaaagaagatatncaaatggccaataagcacatgaaaagatgctcaacntca</sequence>
+    <xref id="DF000000008" name="DF000000008 &lt;unknown description&gt;"/>
+    <orf end="851" start="543" strand="ANTISENSE">
+      <protein>
+        <sequence md5="196c13d98613577067f4ef6e6b7a4703">YVVFSXSFSSKYFLISXVISSLTHGLFRSVLFNFQIFGDFLXIFLLLISNLIPLWSENILCMISILXNLLRLVLWPXIWSILVNVPCALEKNVYSAVVGXSVL</sequence>
+        <xref id="orf187" name="orf187 source=DF000000008 coords=851..543 length=103 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="311" start="3" strand="ANTISENSE">
+      <protein>
+        <sequence md5="4c95b8a8259bc8e6970235971696c9a8">IDPFIIMKCPSLSLVIFLALKSTLSDINIATPAFFXLVFAWYIFFHPFTFNLSVSLYLKCVSCRQHIVGSCFFIQSDNLCLLIGVFXPFTFNVIIDMXGFKST</sequence>
+        <xref id="orf195" name="orf195 source=DF000000008 coords=311..3 length=103 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="3294" start="1" strand="SENSE">
+      <protein>
+        <sequence md5="14087ce25d2274ae01598a160be06b80">MVDLNPXISIITLNVNGLNTPIKRQRLSDWIKKQDPTICCLQETHFKYKDTXRLKVKGWKKIYHANTXQKKAGVAILISDKVDFKARNITRDKEGHFIMIKGSIHQEDITILNVYAPNNRASKYMKQKLTELKGEIDKSTIIVGDFNTPLSVIDRTSRQKISKDIEDLNNTINQLDLIDIYRTLHPTTAEYTFFSSAHGTFTKIDHXLGHKTSLNKFXRIEIIQSMFSDHNGIKLEINNKKIXRKSPNIWKLNNTLLNNPWVKEEITXEIRKYFELNXNENTTYQNLWDAAKAVLRGKFIALNAYIRKEERLKINDLSFHLKKLEKEEQIKPKXSRRKEIIKIRAEINEIENKXTIEKINEAKSWFFEKINKIDKPLARLIKKKREKTQITNIRNEKGDITTDPTDIKRIIREYYEQLYANKFXNLDEMDKFLEKHXLPKLTQEEIENLNSPISIKEIEFVIKNLPTKKTPGPDGFTGEFYQTFKEEIIPILHKLFQKIEKEGTLPNSFYEASXTLIPKPDKDITRKENYRPISLMNIDAKILNKILANRIQQYIKRIIHHDQVGFIPGMQGWFNIRKSINVIHHINRIKEKNHMIISIDAEKAFDKIQHPFMIKTLSKLGIEGNFLNLIKGIYEKPTANIILNGEXLXAFPLRSGTRQGCPLSPLLFNIVLEVLASAIRQEKEIKGIKIGKEEIKLSLFADDMIVYVENPKESTXKLLELISEFSKVAGYKVNIQKSIVFLYTSNKQLENEIXKTIPFTIASKNXKYLGINLTKXVQDLYTENYKTLLREIKEDLNKWRDIPCSWIGRLNIVKMSILPKLIYRFNAIPIKIPAGFFVEIDKLILKFIWKCKGPRIAKTILKKKNKVGGLTLPDXKTYYKATVIKTVWYWRKDRQIDQWNRIESPEIDPHIYGXLIFDKGAXAIQWGKDSLFNKWCWNNWISIWKKMXLDPYLTPYTKINSRWIIDLNVKXKTIKLLEENIGEYLRDLGXGKDFLNRTQKAXTIKEKIDKLDXIKIKNFCSSKDTVKKMKRQATXWEKIFAXHISDKGLVSRIYKELLQXNXKKTNNPIXKWAKDLNRHFTKEDXQMANKHMKRCSTS</sequence>
+        <xref id="orf144" name="orf144 source=DF000000008 coords=1..3294 length=1098 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="539" start="318" strand="ANTISENSE">
+      <protein>
+        <sequence md5="08e1d2adc8b79f3364a494e6128984ca">MSIRSSWLIVLFKSSISLLIFCLLVLSITERGVLKSPTIIVDLSISPFSSVSFCFMYFEALLLGAYTFRIVMSS</sequence>
+        <xref id="orf191" name="orf191 source=DF000000008 coords=539..318 length=74 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="1241" start="855" strand="ANTISENSE">
+      <protein>
+        <sequence md5="8fe9684c9c5083a681cb46aec251579a">YSLIILLMSVGSVVMSPFSFLILVICVFSLFFLISLARGLSILLIFSKNQLLASLIFSIVXLFSISLISALIFIISFLLLXLGLICSSFSSFLRWKLRSLILSLSSFLIXAFXAINFPLSTALAASHKF</sequence>
+        <xref id="orf183" name="orf183 source=DF000000008 coords=1241..855 length=129 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="3293" start="2856" strand="ANTISENSE">
+      <protein>
+        <sequence md5="963ed17c34384c9dd58ba530de9a6a18">XVEHLFMCLLAIXISSFVKCLFKSFAHFXIGLFVFXLLXCRSSLYILDTSPLSDICXANIFSXSVACLFIFLTVSFXEQKFLILMXSNLSIFSFMVXAFCVLFKKSLPXPRSRRYSPMFSSRSFIVLXFTFRSMIHLELIFVYGVR</sequence>
+        <xref id="orf150" name="orf150 source=DF000000008 coords=3293..2856 length=146 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="2898" start="2617" strand="ANTISENSE">
+      <protein>
+        <sequence md5="f1005ca0be511a7a65141e1d3035bde5">VYDPSXINFCVWCEVGVEXHFFPYGYPIVPAPFVEKTILSPLNCXGTFVKNQXXIYVWVYFWTLYSVPLIYLSILTPIPHCLDYCSFIISLXIX</sequence>
+        <xref id="orf155" name="orf155 source=DF000000008 coords=2898..2617 length=94 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="2351" start="1902" strand="ANTISENSE">
+      <protein>
+        <sequence md5="44df97d598ac6a44331ddd36be647a0b">FSVXRSCTXFVRFIPKYXMFFDAIVNGIVFXISFSNCLLLVYRNTIDFCILTLYPATLLNSLISSSSXFVDSXGFSTXTIMSSANXDSFISSFPIFMPFISFSCLIALARTSSTMLNRSGXSGHPCLVPDLRGKAFSXSPLSMMXAVGFS</sequence>
+        <xref id="orf167" name="orf167 source=DF000000008 coords=2351..1902 length=150 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="18260aaf9893cb607f267af90d06c8a0">ggatgtgaggcgatctggctgcgacatctgtcaccccattgatcgccagggttgattcggctgatctggctggctaggcgggtgtccccttcctccctcaccgctccatgtgcgtccctcccgaagctgcgcgctcggtcgaagaggacgaccntccccgatagaggaggaccggtcttcggtcaagggtatacgagtagctgcgctcccctgctagaacctccaaacaagctctcaaggtccatttgtaggagaacgtagggtagtcaagcttccaagactccagacacatccaaatgaggcgctgcatgtggcagtctgcctttctttt</sequence>
+    <xref id="DF000000011" name="DF000000011 &lt;unknown description&gt;"/>
+    <orf end="182" start="3" strand="ANTISENSE">
+      <protein>
+        <sequence md5="1a5457e4a2f1382a4110506db0e0038e">PKTGPPLSGXVVLFDRARSFGRDAHGAVREEGDTRLASQISRINPGDQWGDRCRSQIASH</sequence>
+        <xref id="orf297" name="orf297 source=DF000000011 coords=182..3 length=60 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="331" start="218" strand="SENSE">
+      <protein>
+        <sequence md5="5e68b12511fadc01f412251840218d7c">NLQTSSQGPFVGERRVVKLPRLQTHPNEALHVAVCLSF</sequence>
+        <xref id="orf291" name="orf291 source=DF000000011 coords=218..331 length=38 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="213" start="34" strand="ANTISENSE">
+      <protein>
+        <sequence md5="4e6b8591c722dd951f2c5634d63dea24">QGSAATRIPLTEDRSSSIGXGRPLRPSAQLREGRTWSGEGGRGHPPSQPDQPNQPWRSMG</sequence>
+        <xref id="orf296" name="orf296 source=DF000000011 coords=213..34 length=60 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="258" start="43" strand="SENSE">
+      <protein>
+        <sequence md5="1216dcd123b73db6ce2813f5066cd120">SPGLIRLIWLARRVSPSSLTAPCASLPKLRARSKRTTXPDRGGPVFGQGYTSSCAPLLEPPNKLSRSICRRT</sequence>
+        <xref id="orf289" name="orf289 source=DF000000011 coords=43..258 length=72 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="161" start="78" strand="SENSE">
+      <protein>
+        <sequence md5="33b5e6ea0e283364b3975c6bb754b142">AGVPFLPHRSMCVPPEAARSVEEDDXPR</sequence>
+        <xref id="orf287" name="orf287 source=DF000000011 coords=78..161 length=28 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="214" start="65" strand="SENSE">
+      <protein>
+        <sequence md5="dda605286563926af63e69e2144cc9e0">SGWLGGCPLPPSPLHVRPSRSCALGRRGRPSPIEEDRSSVKGIRVAALPC</sequence>
+        <xref id="orf288" name="orf288 source=DF000000011 coords=65..214 length=50 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="331" start="101" strand="ANTISENSE">
+      <protein>
+        <sequence md5="3fbe69127866adfa0ca6e90cfcc5292e">KRKADCHMQRLIWMCLESWKLDYPTFSYKWTLRACLEVLAGERSYSYTLDRRPVLLYRGXSSSSTERAASGGTHMER</sequence>
+        <xref id="orf295" name="orf295 source=DF000000011 coords=331..101 length=77 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="330" start="238" strand="ANTISENSE">
+      <protein>
+        <sequence md5="e6afcb426509e16abd471061060cc23d">KERQTATCSASFGCVWSLGSLTTLRSPTNGP</sequence>
+        <xref id="orf293" name="orf293 source=DF000000011 coords=330..238 length=31 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="5024b413b9d29cdd6667ecb1ce662ecc">tgatatggtttggctgtgtccccacccaaatctcaacttgaattgtatctcccagaattcccacgtgttgtgggagggacccagggggaggtaattgaatcatgggggccggtctttcccgtgctattctcgtgatagtgaataagtctcacgagatctgatgggtttatcaggggtttccgcttttgcttcttcctcattttcctcttgccgccgccatgtaagaagtgcctttcgcctcccgccatgattctgaggcctccccagccatgtggaactgtaagtccaattaaacctctttttcttcccagtctcgggtatgtctttatcagcagcgtgaaaacggactaataca</sequence>
+    <xref id="DF000000005" name="DF000000005 &lt;unknown description&gt;"/>
+    <orf end="289" start="200" strand="ANTISENSE">
+      <protein>
+        <sequence md5="fecf5a13e04fe6e136aca4d049605f60">LDLQFHMAGEASESWREAKGTSYMAAARGK</sequence>
+        <xref id="orf59" name="orf59 source=DF000000005 coords=289..200 length=30 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="348" start="142" strand="SENSE">
+      <protein>
+        <sequence md5="01c2a2ae2009ead6db2e6393b516261c">ISLTRSDGFIRGFRFCFFLIFLLPPPCKKCLSPPAMILRPPQPCGTVSPIKPLFLPSLGYVFISSVKTD</sequence>
+        <xref id="orf57" name="orf57 source=DF000000005 coords=142..348 length=69 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="347" start="36" strand="ANTISENSE">
+      <protein>
+        <sequence md5="3bd9ab054364a2a3854cb6a23d34628d">SVFTLLIKTYPRLGRKRGLIGLTVPHGWGGLRIMAGGERHFLHGGGKRKMRKKQKRKPLINPSDLVRLIHYHENSTGKTGPHDSITSPWVPPTTRGNSGRYNSS</sequence>
+        <xref id="orf61" name="orf61 source=DF000000005 coords=347..36 length=104 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="354" start="127" strand="ANTISENSE">
+      <protein>
+        <sequence md5="9f54bb2f46f8ff6259e6e9e83906a039">VLVRFHAADKDIPETGKKKRFNWTYSSTWLGRPQNHGGRRKALLTWRRQEENEEEAKAETPDKPIRSRETYSLSRE</sequence>
+        <xref id="orf60" name="orf60 source=DF000000005 coords=354..127 length=76 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="148" start="2" strand="ANTISENSE">
+      <protein>
+        <sequence md5="309a0578a8459d32e42df3b8734f6956">DLFTITRIARERPAPMIQLPPPGSLPQHVGILGDTIQVEIWVGTQPNHI</sequence>
+        <xref id="orf62" name="orf62 source=DF000000005 coords=148..2 length=49 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="247" start="146" strand="SENSE">
+      <protein>
+        <sequence md5="be924ec4d6a56b2d6aed2a1d19c250fe">VSRDLMGLSGVSAFASSSFSSCRRHVRSAFRLPP</sequence>
+        <xref id="orf55" name="orf55 source=DF000000005 coords=146..247 length=34 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="99" start="1" strand="ANTISENSE">
+      <protein>
+        <sequence md5="d4fb26ece8414c77bcc1416d7cfcfca3">FNYLPLGPSHNTWEFWEIQFKLRFGWGHSQTIS</sequence>
+        <xref id="orf63" name="orf63 source=DF000000005 coords=99..1 length=33 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="132" start="4" strand="SENSE">
+      <protein>
+        <sequence md5="d41688e9f9b1e7179dcc48a1412381f5">YGLAVSPPKSQLELYLPEFPRVVGGTQGEVIESWGPVFPVLFS</sequence>
+        <xref id="orf52" name="orf52 source=DF000000005 coords=4..132 length=43 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="d77e7ea7a28fd544bcc4fd1516cc3229">cttgtatccagaatatataaagaactcttaaaactcaacaataaaaaaacaaacaacccaattaaaaaatgggcaaaagatttgaacagacatttcaccaaagaagatatacagatggcaaataagcacatgaaaagatgctcaacatcattngtcattagggaaatgcaaattaaaaccacaatgagataccactacacacctattagaatggctaaaatcaaaaanactgacaataccaaatgctggcgaggatgtggagcaacnggaactctcatacattgctggtgggaatgcaaaatggtacagccactttggaaaacagtttggcagtttcttanaaagctaaacatacanttaccatatgacccagcaatcncactcctaggtatttacccaagngaantgaaaacntatgtccacacaaaaacctgtacacgaatgtttatagcagctttattcataatngccaaaanctggaaacaaccnagatgtccttcaacaggtgaatggataaacaaactgtggtacatccatacaatggaatactactcagcgataaaaaggaatgaactactgatncacgcaanaacatggatgaatcttaaatgcatnttgctaagtgaaagaagccagncnnaaaaggctacatactgtatgattccatttatatgacattctggaaaaggcaaaactatagagacggaaaacagatcagtggttgccaggggttgggagatgggaagnggggatgactgcaaaggngaagcacaggggattttttagggtgatgaaactattctgtatnaantnntctgtatgatactgtggtggtggatacacgacnctatgcatttgtcaaaacccatagaacttgtnannanccacaganntntacagcacaaagagtgaactttaatgtatgcaaattttaaaaaatcanttaggaggtcgggggatcccaggatggaatgcagactgtgacaaangaatctaactgtattacaaatgnatganacaaccncactgaaggggatgggggaaaaaggngctgacctaagtaactttggaaatgagtggannctgtaaggctaaagacaaaaagaactgtaaacaaacattgaactctagttagtaggtttgtttttcgcagnggtatgggttagcaattctgaaactactttctgtacatnttatacattctaggattgagcaaataagtaaatatattgnggataatgggagccaggtttctcactgtcggagaagggagttacaaatatggaaagggggaaggctagaatgaaccctgtggtgttggattggaattggaggtatcggtatgaactcatggtttttaatatatatgnatatacagacggacagatatagaaatagatatagatatatatgtgtntgtgtatatgtgtatgtatatacgtacatatatttcctagctctgtccgctgagagggcctagaagcaatgacaccccagtagcaatgagcacacctagcgcccagatcttggtttctaaataccattctccactaaaaggaaccagggctccttggagaaatggctgattccagggctggggcagggaaagtacaagatgagcctggaacatcttgttgtgccagaaagtaaggaagtgctcaaagaatgatggggacatgtcaaaaggacacaggagccagcttgaaggggctcccactggccaaatctgggacaatttgagcatcaaaataaataatgatagtaatggattataacccattgaataaaataagaatccatgagtccatactgatataaataaataaataaataaatgggggagaagggaaagctcttccttacagtagaatgccaactaataaatgtagaaggaatgatggaattagaaaaatcaccatttggcaaccatcatagtaataattgattcaggcaagaatcatcaatggatgctaaaactagtgggtgaaagtttgatgaggaacaggatatttacatagtctcaaagtatctccccacaaantacttattaattacaaaggggaaaatagtaactttacagtggagaaacctggcagacaccaccttaaccaagtgatcaaagttaacatcaccagtaatgggacaaatcgacatcatgtgcctcctgatatgatgcactgagaaggacacagcatcacttctgtggtattcctgccaaaaatgcataacctgaatctaatcatgaggaaacatcagacaaacccaaattgagggacattctacaaaataactggcctgtactcttcaaaaatgtcaangtcatgaaagacaaagaaagactgaggaactgttccagattaaaggagactaaagagacatgacaactaaatgcaacgcgtgatcctggattggatcctggaccagannnnnnntttgctataaaggacattattgggacaattggcgaaatttgaatanggtctgtagattagataatagtattgtatcaatgttaatttcctgattttgataattgtactgtggttatgtaagagaatgtccttgttcttaggaaatacacactgaagtatttaggggtaaaggggcatnatgtctgcaacttactctcaaatggttcagaaaaaaaaatatgtatatgcananagagaatgataaagcaaatgtggcaaaatgttaacanttggngaatctgggtgaagggtatacgggagttctttgtactattcttgcaacttttctgtaagtttgaaattatttcaaaataaaaa</sequence>
+    <xref id="DF000000010" name="DF000000010 &lt;unknown description&gt;"/>
+    <orf end="2788" start="2516" strand="ANTISENSE">
+      <protein>
+        <sequence md5="bab54413c4bd2ab58b67f4f1d2b86485">FYFEIISNLQKSCKNSTKNSRIPFTQIXQXLTFCHICFIILXXHIHIFFSEPFESKLQTXCPFTPKYFSVYFLRTRTFSYITTVQLSKSGN</sequence>
+        <xref id="orf243" name="orf243 source=DF000000010 coords=2788..2516 length=91 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="2783" start="2553" strand="SENSE">
+      <protein>
+        <sequence md5="2a629b244e94d6170a34ce5860b02175">ENVLVLRKYTLKYLGVKGHXVCNLLSNGSEKKICICXXRMIKQMWQNVNXWXIWVKGIREFFVLFLQLFCKFEIISK</sequence>
+        <xref id="orf238" name="orf238 source=DF000000010 coords=2553..2783 length=77 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="672" start="1" strand="SENSE">
+      <protein>
+        <sequence md5="81facd1f4a18d8356d090128536c4597">LVSRIYKELLKLNNKKTNNPIKKWAKDLNRHFTKEDIQMANKHMKRCSTSXVIREMQIKTTMRYHYTPIRMAKIKXTDNTKCWRGCGATGTLIHCWWECKMVQPLWKTVWQFLXKLNIXLPYDPAIXLLGIYPXEXKTYVHTKTCTRMFIAALFIXAKXWKQPRCPSTGEWINKLWYIHTMEYYSAIKRNELLXHAXTWMNLKCXLLSERSQXXKATYCMIPFI</sequence>
+        <xref id="orf200" name="orf200 source=DF000000010 coords=1..672 length=224 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="1550" start="1206" strand="ANTISENSE">
+      <protein>
+        <sequence md5="1c291740424d0a02252d3590a10ec82b">WRMVFRNQDLGARCAHCYWGVIASRPSQRTELGNICTYIHTHIHXHIYIYIYFYICPSVYXYILKTMSSYRYLQFQSNTTGFILAFPLSIFVTPFSDSEKPGSHYPQYIYLFAQS</sequence>
+        <xref id="orf265" name="orf265 source=DF000000010 coords=1550..1206 length=115 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="2488" start="2243" strand="ANTISENSE">
+      <protein>
+        <sequence md5="882e5550e55db6a514d81f05bc6aa9aa">STDXIQISPIVPIMSFIAXXXSGPGSNPGSRVAFSCHVSLVSFNLEQFLSLSLSFMTLTFLKSTGQLFCRMSLNLGLSDVSS</sequence>
+        <xref id="orf248" name="orf248 source=DF000000010 coords=2488..2243 length=82 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="1091" start="786" strand="ANTISENSE">
+      <protein>
+        <sequence md5="2fa7ae917f66367c34028037439cced3">PYXXHSFPKLLRSAPFSPIPFSXVVSXICNTVRFXCHSLHSILGSPDLLXDFLKFAYIKVHSLCCXXLWXXTSSMGFDKCIXSCIHHHSIIQXXXYRIVSSP</sequence>
+        <xref id="orf272" name="orf272 source=DF000000010 coords=1091..786 length=102 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="782" start="552" strand="ANTISENSE">
+      <protein>
+        <sequence md5="133ab2d2f4288492bc56792704aafa31">KIPCASPLQSSPLPISQPLATTDLFSVSIVLPFPECHINGIIQYVAFXXWLLSLSXMHLRFIHVXAXISSSFLFIAE</sequence>
+        <xref id="orf276" name="orf276 source=DF000000010 coords=782..552 length=77 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="1876" start="1457" strand="ANTISENSE">
+      <protein>
+        <sequence md5="18e9cf6ac3aeffb5e706b0bc8af7502b">LAFYCKEELSLLPHLFIYLFISVWTHGFLFYSMGYNPLLSLFILMLKLSQIWPVGAPSSWLLCPFDMSPSFFEHFLTFWHNKMFQAHLVLSLPQPWNQPFLQGALVPFSGEWYLETKIWALGVLIATGVSLLLGPLSGQS</sequence>
+        <xref id="orf262" name="orf262 source=DF000000010 coords=1876..1457 length=140 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="2dadd93d4062eac7a880fce05957bd6c">ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggcggatcacgaggtcaggagatcgagaccatcctggctaacacggtgaaaccccgtctctactaaaaatacaaaaaattagccgggcgtggtggcgggcgcctgtagtcccagctactcgggaggctgaggcaggagaatggcgtgaacccgggaggcggagcttgcagtgagccgagatcgcgccactgcactccagcctgggcgacagagcgagactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</sequence>
+    <xref id="DF000000002" name="DF000000002 &lt;unknown description&gt;"/>
+    <orf end="310" start="95" strand="ANTISENSE">
+      <protein>
+        <sequence md5="2af7fce88a184d6d091d8ae35f891480">FFFFFFFFFLRRSLALSPRLECSGAISAHCKLRLPGSRHSPASASRVAGTTGARHHARLIFCIFSRDGVSPC</sequence>
+        <xref id="orf21" name="orf21 source=DF000000002 coords=310..95 length=72 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="311" start="120" strand="ANTISENSE">
+      <protein>
+        <sequence md5="fd64a87e2d67bce34c4c88000ab96861">FFFFFFFFFFETESRSVAQAGVQWRDLGSLQAPPPGFTPFSCLSLPSSWDYRRPPPRPANFLYF</sequence>
+        <xref id="orf20" name="orf20 source=DF000000002 coords=311..120 length=64 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="92" start="3" strand="SENSE">
+      <protein>
+        <sequence md5="47efd2c848754f97e8861ad03bceaa5b">PGAVAHACNPSTLGGRGGRITRSGDRDHPG</sequence>
+        <xref id="orf12" name="orf12 source=DF000000002 coords=3..92 length=30 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="224" start="96" strand="SENSE">
+      <protein>
+        <sequence md5="9da3e9eca470581148d384755e6a76e7">HGETPSLLKIQKISRAWWRAPVVPATREAEAGEWREPGRRSLQ</sequence>
+        <xref id="orf15" name="orf15 source=DF000000002 coords=96..224 length=43 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="310" start="203" strand="SENSE">
+      <protein>
+        <sequence md5="d5dd6468b3dc6cccd17447467dd798e3">TREAELAVSRDRATALQPGRQSETPSQKKKKKKKKK</sequence>
+        <xref id="orf17" name="orf17 source=DF000000002 coords=203..310 length=36 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="279" start="172" strand="ANTISENSE">
+      <protein>
+        <sequence md5="884d621d500448b853ec64c308c20ec1">DGVSLCRPGWSAVARSRLTASSASRVHAILLPQPPE</sequence>
+        <xref id="orf19" name="orf19 source=DF000000002 coords=279..172 length=36 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="117" start="1" strand="SENSE">
+      <protein>
+        <sequence md5="068701f827040a72114015fedc56627c">GRARWLTPVIPALWEAEAGGSRGQEIETILANTVKPRLY</sequence>
+        <xref id="orf14" name="orf14 source=DF000000002 coords=1..117 length=39 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="309" start="163" strand="SENSE">
+      <protein>
+        <sequence md5="2276da937e42263d89153e4d2a722f9c">SQLLGRLRQENGVNPGGGACSEPRSRHCTPAWATERDSVSKKKKKKKKK</sequence>
+        <xref id="orf16" name="orf16 source=DF000000002 coords=163..309 length=49 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+  <nucleotide-sequence>
+    <sequence md5="19b3abc2731388f72a53fb0d2fe18487">ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggcggatcacgaggtcaagagatcgagaccatcctggccaacatggtgaaaccccgtctctactaaaaatacaaaaattagctgggcgtggtggcgcgcgcctgtagtcccagctactcgggaggctgaggcaggagaatcgcttgaacccgggaggcggaggttgcagtgagccgagatcgcgccactgcactccagcctggcgacagagcgagactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</sequence>
+    <xref id="DF000000003" name="DF000000003 &lt;unknown description&gt;"/>
+    <orf end="223" start="104" strand="SENSE">
+      <protein>
+        <sequence md5="2e424368cc2f7cddb362bceb98fff984">NPVSTKNTKISWAWWRAPVVPATREAEAGESLEPGRRRLQ</sequence>
+        <xref id="orf29" name="orf29 source=DF000000003 coords=104..223 length=40 frame=2 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="308" start="171" strand="ANTISENSE">
+      <protein>
+        <sequence md5="970648f990a442b86067af0be9f5f678">FFFFFFFFFLRRSLALSPGWSAVARSRLTATSASRVQAILLPQPPE</sequence>
+        <xref id="orf33" name="orf33 source=DF000000003 coords=308..171 length=46 frame=5 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="309" start="202" strand="SENSE">
+      <protein>
+        <sequence md5="a2b2e01b00abf1eb079ec80f17863562">TREAEVAVSRDRATALQPGDRARLRLKKKKKKKKKK</sequence>
+        <xref id="orf32" name="orf32 source=DF000000003 coords=202..309 length=36 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="277" start="20" strand="ANTISENSE">
+      <protein>
+        <sequence md5="273ab30102ce85544d43fbb12787de4c">DGVSLCRQAGVQWRDLGSLQPPPPGFKRFSCLSLPSSWDYRRAPPRPANFCIFSRDGVSPCWPGWSRSLDLVIRPPRPPKVLGLQA</sequence>
+        <xref id="orf35" name="orf35 source=DF000000003 coords=277..20 length=86 frame=6 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="117" start="1" strand="SENSE">
+      <protein>
+        <sequence md5="b90f1d7c006baef1e7f772a2d169ce28">GRARWLTPVIPALWEAEAGGSRGQEIETILANMVKPRLY</sequence>
+        <xref id="orf27" name="orf27 source=DF000000003 coords=1..117 length=39 frame=1 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="308" start="162" strand="SENSE">
+      <protein>
+        <sequence md5="93bce348ac43ad1ac3fc7891a099eb4d">SQLLGRLRQENRLNPGGGGCSEPRSRHCTPAWRQSETPSQKKKKKKKKK</sequence>
+        <xref id="orf31" name="orf31 source=DF000000003 coords=162..308 length=49 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="158" start="3" strand="SENSE">
+      <protein>
+        <sequence md5="2c859675819e7b24cb0484eda9961fdb">PGAVAHACNPSTLGGRGGRITRSRDRDHPGQHGETPSLLKIQKLAGRGGARL</sequence>
+        <xref id="orf28" name="orf28 source=DF000000003 coords=3..158 length=52 frame=3 desc=&lt;unknown description&gt;"/>
+        <matches/>
+      </protein>
+    </orf>
+    <orf end="309" start="64" strand="ANTISENSE">
+      <protein>
+        <sequence md5="5fddbdcc3acdf6fcab56da206e10bb6b">FFFFFFFFFFETESRSVARLECSGAISAHCNLRLPGSSDSPASASRVAGTTGARHHAQLIFVFLVETGFHHVGQDGLDLLTS</sequence>
+        <xref id="orf34" name="orf34 source=DF000000003 coords=309..64 length=82 frame=4 desc=&lt;unknown description&gt;"/>
+        <matches>
+          <fingerprints-match evalue="1.5E-9" graphscan="II.">
+            <signature ac="PR02045" desc="FAM138 N-terminal domain signature" name="F138DOMAIN">
+              <signature-library-release library="PRINTS" version="42.0"/>
+            </signature>
+            <model-ac>PR02045</model-ac>
+            <locations>
+              <fingerprints-location motifNumber="2" pvalue="6.65E-5" score="36.39" start="76" end="82" representative="false">
+                <location-fragments>
+                  <fingerprints-location-fragment start="76" end="82" dc-status="CONTINUOUS"/>
+                </location-fragments>
+              </fingerprints-location>
+              <fingerprints-location motifNumber="1" pvalue="7.99E-12" score="61.97" start="61" end="76" representative="false">
+                <location-fragments>
+                  <fingerprints-location-fragment start="61" end="76" dc-status="CONTINUOUS"/>
+                </location-fragments>
+              </fingerprints-location>
+            </locations>
+          </fingerprints-match>
+        </matches>
+      </protein>
+    </orf>
+  </nucleotide-sequence>
+</nucleotide-sequence-matches>
