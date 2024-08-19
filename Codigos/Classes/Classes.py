@@ -95,7 +95,7 @@ class Data:
     def __conserved_domain(self) -> None:
         #PRINTS, Pfam, CDD, ProSitePatterns
 
-        comando_0 = './interproscan.sh ' + ' -appl CDD' +' -t n '
+        comando_0 = './interproscan.sh ' + ' -appl PRINTS' +' -t n '
         comando_1 = ' -i ' + self.relative_path + 'Temp_Data/Arquivos_Fasta/sequences' + ' -b ' + self.relative_path + 'Temp_Data/Dados_Dominios_Conservados/'
 
         comando_f = comando_0 + comando_1
@@ -121,7 +121,7 @@ class Data:
     
 def main() -> None:
 
-    data = Data('/home/mantovani/Documents/IC/HMC_TE-s/', 10)
+    data = Data('/home/mantovani/Documents/IC/HMC_TE-s/', 2)
     
     a = data.get_data()
 
