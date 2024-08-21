@@ -8,6 +8,7 @@ import numpy  as np
 
 #LEMBRE-SE DE ORDENAR A LISTA DE FORMA QIUE A CLASSIFICAÇÃO CORRETA SEJA VIAVEL DESSE JEITO, VAI FUNCIONAR PARA TESTES MAS NA 
 #HORA DE TREINAR O MODELO, ELE SIMPLESMENTE NÃO FUNCIONARÁ!
+#ATENÇÃO DEVEMOS SIMPLIFICAR O CODIGO PARA A SUA EXECUÇÃO REAL, ELE PRECISA SER OTIMIZADO!!!
 
 todas_hierarquias:tuple = ('Transib', 'Mariner', 'Zator', 'L1', 'RTE-X', '5S-RNA_Promoter', 'Group-I', 'Hero', 'scRNA', 'Poseidon', 
     'MuDR', 'Mutator-like', 'ISL2EU', 'Tad1_End', 'PiggyBac-X', 'DNA_Polymerase', 'Hydra-specific_Branch', 
@@ -50,7 +51,7 @@ def reverso_lista_binaria(lista_binaria: tuple) -> list:
 
     return classificacao
 
-class Data:
+class Mineracao:
 
     def __init__(self, relative_path:str, taxa_dowload: int = 1000) -> None: #colocar um pedaço de código para calcular o caminho relativo sozinho
         
@@ -121,7 +122,7 @@ class Data:
     
 def main() -> None:
 
-    data = Data('/home/mantovani/Documents/IC/HMC_TE-s/', 10)
+    data = Mineracao('/home/mantovani/Documents/IC/HMC_TE-s/', 10)
     
     
     a = data.get_data()
